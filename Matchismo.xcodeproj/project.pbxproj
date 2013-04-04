@@ -22,6 +22,7 @@
 		F733AF841707E71A00D426BB /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = F733AF831707E71A00D426BB /* Deck.m */; };
 		F733AF871707E74D00D426BB /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = F733AF861707E74D00D426BB /* PlayingCard.m */; };
 		F733AF8A1707E77D00D426BB /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = F733AF891707E77D00D426BB /* PlayingCardDeck.m */; };
+		F7B72B6A170D0E2900E76EE7 /* CardMatchingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B72B69170D0E2900E76EE7 /* CardMatchingGame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,8 @@
 		F733AF861707E74D00D426BB /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		F733AF881707E77D00D426BB /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayingCardDeck.h; path = Model/PlayingCardDeck.h; sourceTree = "<group>"; };
 		F733AF891707E77D00D426BB /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCardDeck.m; path = Model/PlayingCardDeck.m; sourceTree = "<group>"; };
+		F7B72B68170D0E2900E76EE7 /* CardMatchingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardMatchingGame.h; path = Model/CardMatchingGame.h; sourceTree = "<group>"; };
+		F7B72B69170D0E2900E76EE7 /* CardMatchingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardMatchingGame.m; path = Model/CardMatchingGame.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 		F733AF811707E6C700D426BB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F7B72B68170D0E2900E76EE7 /* CardMatchingGame.h */,
+				F7B72B69170D0E2900E76EE7 /* CardMatchingGame.m */,
 				F733AF7E1707E6A000D426BB /* Card.h */,
 				F733AF7F1707E6A000D426BB /* Card.m */,
 				F733AF821707E71A00D426BB /* Deck.h */,
@@ -209,6 +214,7 @@
 				F733AF841707E71A00D426BB /* Deck.m in Sources */,
 				F733AF871707E74D00D426BB /* PlayingCard.m in Sources */,
 				F733AF8A1707E77D00D426BB /* PlayingCardDeck.m in Sources */,
+				F7B72B6A170D0E2900E76EE7 /* CardMatchingGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +337,7 @@
 				F733AF7D1707AADB00D426BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
